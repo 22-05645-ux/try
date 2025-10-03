@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #065f46;
+  color: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: #064e3b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+
+.clock {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.container {
+  padding: 100px 20px 20px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  text-align: center;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
